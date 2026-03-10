@@ -4,9 +4,16 @@ A machine learning-based customer segmentation application built with Streamlit 
 
 ## 📚 Thesis Abstract
 
-> **[Replace this with your thesis abstract]**
-> 
-> Include your thesis title, research objectives, methodology, key findings, and conclusions here. This should be 150-300 words summarizing your academic work.
+> This project addresses the challenge of understanding customer behavior in retail environments 
+through data-driven analysis. Traditional approaches to customer classification rely on manual 
+observation or intuition, which are inherently subjective and difficult to scale. In response to this 
+limitation, this work proposes an automated segmentation system based on unsupervised machine 
+learning applied to a publicly available retail dataset by applying K-Means clustering. The optimal 
+number of clusters is determined using both the Elbow Method and the Silhouette Coefficient.
+    A comparative analysis with Agglomerative Hierarchical Clustering is also conducted to validate
+the robustness of the chosen approach. The resulting segments are presented through an 
+interactive decision-support dashboard built with Streamlit, enabling non-technical users to explore 
+customer profiles, filter data, and consult strategic recommendations. 
 
 ## 🎯 Project Overview
 
@@ -47,70 +54,3 @@ PFE/
 ├── requirements.txt       # Python dependencies
 └── README.md             # Project documentation
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python 3.7 or higher
-- pip package manager
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
-```
-
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-### Running the Application
-
-Launch the Streamlit app:
-```bash
-streamlit run app.py
-```
-
-The application will open in your default browser at `http://localhost:8501`
-
-## 📊 Dataset
-
-The project uses the Mall Customers dataset containing:
-- Customer ID
-- Gender
-- Age
-- Annual Income (k$)
-- Spending Score (1-100)
-
-## 🔍 Analysis Methodology
-
-1. **Data Preprocessing**: Standardization of features
-2. **Optimal Cluster Selection**: Elbow method and silhouette analysis
-3. **Clustering**: K-Means and Hierarchical algorithms
-4. **Evaluation**: Silhouette scores and visual inspection
-5. **Interpretation**: Business insights from cluster characteristics
-
-## 📈 Results
-
-[Add your key findings and insights here]
-
-## 👤 Author
-
-**[Your Name]**
-- Educational Institution: [Your University]
-- Program: [Your Program/Degree]
-- Year: 2026
-
-## 📝 License
-
-This project is part of academic work (PFE - Projet de Fin d'Études).
-
-## 🙏 Acknowledgments
-
-- [Your supervisor's name]
-- [University/Department name]
-- Dataset source: [If applicable]
